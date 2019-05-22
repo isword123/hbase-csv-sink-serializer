@@ -24,7 +24,7 @@ public class CSVSerializer implements HbaseEventSerializer {
     /** default splitter regex
      * Refer: https://stackoverflow.com/a/15739087/1847934
      * */
-    public static final String SPLIT_REGEX_DEFAULT = ",(?=([^\\\"]*\\\"[^\\\"]*\\\")*[^\\\"]*$)";
+    public static final String SPLIT_REGEX_DEFAULT = ",(?=([^\"]*\"[^\"]*\")*[^\"]*$)";
 
     /** Comma separated list of column names to place matching groups in. */
     public static final String COL_NAME_CONFIG = "colNames";
