@@ -9,4 +9,10 @@
 - Add new config `.splitRegex`, the default value is `,`
 - Remove config
     - `regexIgnoreCase`
-    - `regex`
+- `regex`
+
+### Speed test
+- Test results
+- one row:
+    - 19 columns with (.*) regex match pattern: 295ms
+    - 19 columns with regex splitter: 0.69 ms
